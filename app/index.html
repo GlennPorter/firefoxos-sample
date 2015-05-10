@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" ng-app="FirefoxOSSample">
+	<head>
+		<title>Firefox OS Sample</title>
+		<script src="lib/js/angular.js"></script>
+		<script src="lib/js/angular-route.js"></script>
+		<script src="lib/js/jquery-2.1.4.js"></script>
+		<script src="lib/js/slidebars.js"></script>
+		<script src="js/angularjs/app.js"></script>
+		<script src="js/angularjs/controllers.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="lib/css/slidebars.css" />
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body>
+		<div class="sb-slidebar sb-left">
+			<nav>
+				<ul>
+					<li><a href="#/something">Something</a></li>
+					<li><a href="#/something-else">Something Else</a></li>
+					<li><a href="#/about">About</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="sb-site">
+			<section>
+				<header>
+					<div class="sb-toggle-left">
+						<img src="images/menu_white.png" />
+					</div>
+					<h1>Sample Firefox OS app.</h1>
+				</header>
+				<article ng-view></article>
+			</section>
+		</div>
+
+		<script>
+			(function($) {
+				$(document).ready(function() {
+			  		$.slidebars();
+				});
+			}) (jQuery);
+			</script>
+	</body>
+</html>

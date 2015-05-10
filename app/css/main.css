@@ -1,0 +1,39 @@
+body {
+	
+}
+
+.sb-slidebar {
+	background-color: #A2A2A2;
+	color: #000000;
+}
+
+header {
+	padding: 10px;
+	background-color: #333333;
+	color: #FFFFFF;
+}
+
+header .sb-toggle-left {
+	display: inline;
+	height: 100%;
+	margin-right: 5px;
+}
+
+header h1 {
+	display: inline;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 100;
+}
+
+nav li {
+	list-style: none;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+article {
+	padding-left: 10px;
+	padding-right: 10px;
+}

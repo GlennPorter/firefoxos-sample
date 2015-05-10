@@ -1,0 +1,21 @@
+{
+  "version": "0.0.1",
+  "name": "Firefox OS Sample App",
+  "description": "A sample Firefox OS app.",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/images/app_icon_16.png",
+    "72": "/images/app_icon_72.png",
+    "114": "/images/app_icon_114.png",
+    "128": "/images/app_icon_128.png",
+    "256": "/images/app_icon_256.png"
+  },
+  "developer": {
+    "name": "Glenn Porter",
+    "url": "https://github.com/GlennPorter"
+  },
+  "installs_allowed_from": ["https://marketplace.firefox.com"],
+  "locales": {
+  },
+  "default_locale": "en"
+}
